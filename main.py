@@ -12,8 +12,8 @@ from logging.handlers import RotatingFileHandler
 # Config 
 class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID",  "29755489"))
-    API_HASH = os.environ.get("API_HASH", "05e0d957751c827aa03494f503ab54fe")
+    API_ID = int(os.environ.get("API_ID",  "21595709"))
+    API_HASH = os.environ.get("API_HASH", "6b683b86a90c6fae0fbe50a6494bdd53")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
     
@@ -52,7 +52,7 @@ class Store(object):
 
 # Format
 class Msg(object):
-    START_MSG = "**/ankit**"
+    START_MSG = "**/Vishal**"
 
     TXT_MSG = "Hey <b>{user},"\
         "\n\n`I'm Multi-Talented Robot. I Can Download Many Type of Links.`"\
